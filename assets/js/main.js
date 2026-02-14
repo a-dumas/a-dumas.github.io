@@ -1,4 +1,3 @@
-// Minimal JS: mobile nav + footer year
 (function(){
   const btn = document.querySelector('.nav-toggle');
   const list = document.getElementById('navlist');
