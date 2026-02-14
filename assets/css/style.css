@@ -1,5 +1,3 @@
-/* Simple dark personal site — minimal, readable, link color white + underline */
-
 :root{
   --bg: #0b0d10;
   --panel: #11151b;
@@ -33,8 +31,8 @@ body{
 }
 
 a{
-  color: #ffffff;              /* ✅ requested */
-  text-decoration: underline;  /* ✅ requested */
+  color: #ffffff;             
+  text-decoration: underline;  
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
 }
@@ -112,7 +110,7 @@ code{
   gap: 16px;
 }
 .nav-list a{
-  text-decoration: none; /* keep nav clean */
+  text-decoration: none; 
   color: var(--text);
   opacity: .9;
 }
