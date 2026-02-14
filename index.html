@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- UPDATED -->
+  <title>Arlen Dumas</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- ===================== SIDEBAR ===================== -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Arlen Dumas" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Arlen Dumas">Arlen Dumas</h1>
+
+          <!-- ✅ UPDATED -->
+          <p class="title">PhD student • University of Rhode Island • ASSET Lab</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <!-- ✅ REPLACE placeholders below with your real info -->
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:YOUR_EMAIL@uri.edu" class="contact-link">YOUR_EMAIL@uri.edu</a>
+            </div>
+          </li>
+
+          <!-- Optional phone: delete this whole <li> if you don't want it public -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+1XXXXXXXXXX" class="contact-link">+1 (XXX) XXX-XXXX</a>
+            </div>
+          </li>
+
+          <!-- Optional birthday: delete this whole <li> if you don’t want it -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1990-01-01">January 1</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Rhode Island, USA</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <!-- ✅ Replace # with your links (GitHub/LinkedIn/Scholar) -->
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link" target="_blank" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link" target="_blank" rel="noopener">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link" target="_blank" rel="noopener">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!-- ===================== MAIN CONTENT ===================== -->
+    <div class="main-content">
+
+      <!-- ===================== NAVBAR ===================== -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <!-- ✅ Button text MUST match article data-page values below -->
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Updates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!-- ===================== ABOUT ===================== -->
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About</h2>
+        </header>
+
+        <!-- ✅ FIXED: removed duplicate nested section -->
+        <section class="about-text">
+          <p>
+            I am a fourth-year Computer Science PhD student at the University of Rhode Island and a member of the ASSET Lab led by
+            <a href="https://kven.me/" target="_blank" rel="noopener">Krishna Venkatasubramanian</a>.
+            My research focuses on smartphone-based digital phenotyping — the use of passive smartphone and wearable sensor data to model health-related states and behaviors.
+          </p>
+
+          <p>
+            I work on applied machine learning projects aimed at improving health outcomes for marginalized populations.
+            My work leverages accelerometer, GPS, communication logs, wearable physiological signals, and other multimodal sensing streams to understand patterns, routines, and behavioral changes.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Smartphone-Based Digital Phenotyping</h4>
+                <p class="service-item-text">
+                  Developing scalable mobile sensing systems that transform passive smartphone data into clinically meaningful behavioral insights.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Applied Machine Learning for Health</h4>
+                <p class="service-item-text">
+                  Designing predictive models to anticipate non-adherence and support just-in-time adaptive interventions.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Wearable Biosensing Systems</h4>
+                <p class="service-item-text">
+                  Leveraging wearable physiological sensors to detect treatment non-adherence and substance use risk patterns.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+      </article>
+
+      <!-- ===================== PUBLICATIONS ===================== -->
+      <!-- ✅ FIXED: data-page matches navbar label "Publications" -->
+      <article class="resume" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="about-text">
+          <p><strong>Selected publications (authored/co-authored by Arlen Dumas):</strong></p>
+
+          <p>
+            <strong>Dumas, A.</strong>, Hokayem, J., Goodman, G., Venkatasubramanian, K., Chai, P. R.
+            “Smartphone-Based Digital Phenotyping Across Health Conditions: A Scoping Review.”
+            <em>Journal of Medical Internet Research (JMIR)</em> (in press).
+          </p>
+
+          <p>
+            Lee, J. S., Browning, E., Hokayem, J., Albrechta, H., Goodman, G., Venkatasubramanian, K., <strong>Dumas, A.</strong>, et al.
+            “Smartphone and Wearable Device-based Digital Phenotyping to Understand Substance Use and its Syndemics.”
+            <em>Journal of Medical Toxicology</em>, April 2024.
+          </p>
+
+          <p>
+            Albrechta, H., Goodman, G. R., Oginni, E., Mohamed, Y., Venkatasubramanian, K., <strong>Dumas, A.</strong>, et al.
+            “Acceptance of Digital Phenotyping Linked to a Digital Pill System to Measure PrEP Adherence Among Men who have Sex with Men with Substance Use.”
+            <em>PLOS Digital Health</em>, February 2024.
+          </p>
+
+          <p>
+            Glynn, T. R., Khanna, S., Hasdianda, M. A., Tom, J., Venkatasubramanian, K., <strong>Dumas, A.</strong>, O'Cleirigh, C., Goldfine, C. E., Chai, P. R.
+            “Informing Acceptability and Feasibility of Digital Phenotyping for Personalized HIV Prevention Among Marginalized Populations Presenting to the Emergency Department.”
+            <em>HICSS 2024</em>, January 2024.
+          </p>
+        </section>
+
+      </article>
+
+      <!-- ===================== PROJECTS ===================== -->
+      <!-- ✅ FIXED: projects live inside an article with data-page="projects" -->
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="project-list">
+
+            <li class="project-item active">
+              <div>
+                <h3 class="project-title">SmartSteps: Improving PrEP Adherence using Digital Phenotyping</h3>
+                <p>
+                  Developing SmartSteps, a context-aware digital phenotyping model to anticipate PrEP nonadherence and deliver corrective feedback before nonadherence events occur.
+                  This project is led by Dr. Peter Chai (Brigham and Women’s Hospital & Harvard Medical School) in collaboration with Brigham and Women’s Hospital and Fenway Health.
+                </p>
+                <p><strong>Funded by:</strong> NIH subaward via Brigham and Women’s Hospital</p>
+              </div>
+            </li>
+
+            <li class="project-item active">
+              <div>
+                <h3 class="project-title">Wearable Biosensor-Based Opioid Abuse Treatment Management</h3>
+                <p>
+                  Developing wearable physiological sensing methods to detect medication non-adherence in medication-assisted treatment for opioid use disorder using wearable biosensors.
+                </p>
+                <p><strong>Funded by:</strong> NIH NIBIB R01 Grant</p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+      </article>
+
+      <!-- ===================== UPDATES ===================== -->
+      <article class="blog" data-page="updates">
+
+        <header>
+          <h2 class="h2 article-title">Updates</h2>
+        </header>
+
+        <!-- ✅ Replace these with your real updates -->
+        <section class="about-text">
+          <ul>
+            <li><strong>2026</strong> — Paper in press at JMIR: “Smartphone-Based Digital Phenotyping Across Health Conditions: A Scoping Review.”</li>
+            <li><strong>2025</strong> — Ongoing: SmartSteps project developing context-aware adherence interventions for PrEP nonadherence.</li>
+            <li><strong>2024</strong> — Publications in Journal of Medical Toxicology, PLOS Digital Health, and HICSS.</li>
+          </ul>
+        </section>
+
+      </article>
+
+      <!-- ===================== CONTACT ===================== -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <!-- Optional: delete map section if you don't want it -->
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12071.02652163692!2d-71.5000!3d41.4900!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5ae3a9f6c9c8b%3A0x2bb2a3e9c8f7f0c8!2sKingston%2C%20RI%2002881!5e0!3m2!1sen!2sus!4v1700000000000"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <!-- Note: this form does not send emails unless you wire up a backend/Formspree/Netlify -->
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- custom js -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
